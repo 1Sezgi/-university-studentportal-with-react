@@ -1,0 +1,115 @@
+﻿#back{
+    background: url("./img/arkaplan.jpg") no-repeat;
+    background-size: cover;   
+    float: "left";
+    background-Color: "#f4f4f4"
+}
+.formbaslik{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.basvurubilgi h2{
+    color: "#d13242"
+}
+
+.golge{
+  
+   
+    float: left;
+    box-shadow: 0px 0px 50px black;
+}
+
+.buyutec
+{
+    position: relative;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -ms-transition: all .2s ease-in;
+  width:80px;
+  height:80px;
+  float:left;
+  padding:5px;
+}
+
+.buyutec:hover
+{
+    z-index:4;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);  
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.nav-pills {
+    align-items: center;
+    justify-content: center;
+  }
+
+
+.uxa-form-group {
+    background-color: white;
+    box-shadow: 0 0.6rem rgba(50, 50, 50, 0.15);
+}
+
+.profile-pic {
+    color: transparent;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+ 
+    .profile-pic input {
+        display: none;
+    }
+
+    .profile-pic img {
+        position: absolute;
+        object-fit: cover;
+        width: 140px;
+        height: 140px;
+        box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
+        border-radius: 100px;
+        z-index: 0;
+    }
+
+    .profile-pic .-label {
+        height: 165px;
+        width: 165px;
+    }
+
+    .profile-pic:hover .-label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 10000;
+        color: #fafafa;
+        transition: background-color 0.2s ease-in-out;
+        border-radius: 100px;
+        margin-bottom: 0;
+    }
+
+    .profile-pic span {
+        padding: 0.2em;
+        height: 2em;
+    } 
+
+
+    .kayit{
+        text-align: center; 
+        padding:10px ;
+        border-radius: 7px;
+       
+    }
+
+.goruntule{
+    text-align: center;
+    padding:10px ;
+    border-radius: 7px;
+  
+}
